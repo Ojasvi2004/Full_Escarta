@@ -1,0 +1,13 @@
+[build]
+  base = "client"
+  publish = "client/dist"  # Change this to 'dist' (not 'build')
+  command = "npm run build"
+
+[dev]
+  framework = "vite"  # Ensure this is correctly pointing to Vite, not CRA
+
+[[redirects]]
+  from = "/api/*"
+  to = "https://full-escarta.onrender.com/api/:splat"
+  status = 200
+  force = true
