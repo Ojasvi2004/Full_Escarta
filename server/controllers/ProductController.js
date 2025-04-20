@@ -1,6 +1,5 @@
 const { json } = require("express");
 const producModel = require("../models/product");
-const { parse } = require("postcss");
 const productModel = require("../models/product");
 const cloudinary = require("cloudinary").v2;
 
