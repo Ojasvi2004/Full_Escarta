@@ -11,3 +11,9 @@
   to = "https://full-escarta.onrender.com/api/:splat"
   status = 200
   force = true
+
+# ✅ SPA fallback for client-side routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
