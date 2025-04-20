@@ -99,7 +99,7 @@ function Contact() {
 
           <div className="space-y-6 w-full">
             <div className="flex items-start space-x-4">
-              <Mail className="w-6 h-6 text-blue-600 mt-1" />
+              <Mail className="w-6 h-6 text-slate-900 mt-1" />
               <div>
                 <h3 className="font-serif text-lg text-gray-900">Email Us</h3>
                 <p className="text-gray-600">contact@escarta.com</p>
@@ -108,7 +108,7 @@ function Contact() {
             </div>
 
             <div className="flex items-start space-x-4">
-              <Phone className="w-6 h-6 text-blue-600 mt-1" />
+              <Phone className="w-6 h-6 text-slate-900 mt-1" />
               <div>
                 <h3 className="font-serif text-lg text-gray-900">Call Us</h3>
                 <p className="text-gray-600">+1 (800) ESCARTA</p>
@@ -117,7 +117,7 @@ function Contact() {
             </div>
 
             <div className="flex items-start space-x-4">
-              <Clock className="w-6 h-6 text-blue-600 mt-1" />
+              <Clock className="w-6 h-6 text-slate-900 mt-1" />
               <div>
                 <h3 className="font-serif text-lg text-gray-900">Hours</h3>
                 <p className="text-gray-600">Monday - Friday: 9AM - 8PM</p>
@@ -234,7 +234,7 @@ function Contact() {
               </div>
               <button
                 type="submit"
-                className="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors"
+                className="px-6 py-3 bg-slate-800 hover:bg-slate-900 rounded-sm text-white transition-colors"
               >
                 Send Message
               </button>
@@ -247,7 +247,7 @@ function Contact() {
                 key={index}
                 className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow"
               >
-                <div className="flex items-center justify-center mb-4 text-blue-600">
+                <div className="flex items-center justify-center mb-4 text-slate-900">
                   {stat.icon}
                 </div>
                 <div className="text-center">
@@ -270,7 +270,7 @@ function Contact() {
                   key={index}
                   className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow"
                 >
-                  <div className="text-blue-600 mb-4">
+                  <div className="text-slate-900 mb-4">
                     <MapPin className="w-6 h-6" />
                   </div>
                   <h3 className="text-xl font-serif text-gray-900 mb-3">

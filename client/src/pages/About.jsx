@@ -167,7 +167,7 @@ function About() {
                 key={index}
                 className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow"
               >
-                <div className="flex items-center justify-center mb-4 text-blue-600">
+                <div className="flex items-center justify-center mb-4 text-slate-900">
                   {stat.icon}
                 </div>
                 <div className="text-center">
@@ -187,7 +187,7 @@ function About() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {values.map((value, index) => (
                 <div key={index} className="bg-white p-6 rounded-lg shadow-sm">
-                  <div className="text-blue-600 mb-4">{value.icon}</div>
+                  <div className="text-slate-900 mb-4">{value.icon}</div>
                   <h3 className="text-xl font-serif text-gray-900 mb-3">
                     {value.title}
                   </h3>
@@ -207,7 +207,7 @@ function About() {
                   key={index}
                   className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow"
                 >
-                  <div className="text-blue-600 mb-4">{service.icon}</div>
+                  <div className="text-slate-900 mb-4">{service.icon}</div>
                   <h3 className="text-xl font-serif text-gray-900 mb-3">
                     {service.title}
                   </h3>
