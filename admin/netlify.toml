@@ -10,3 +10,9 @@
   to = "https://full-escarta.onrender.com/api/:splat"
   status = 200
   force = true
+
+# ✅ ADD THIS BLOCK 👇 to support React/Vite routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
